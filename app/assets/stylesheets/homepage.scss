@@ -99,6 +99,15 @@ body {
  }
  .navbar li a, .navbar .navbar-brand {
      color: #d5d5d5 !important;
+
+ }
+
+ .navbar-brand {
+
+   color: red;
+   font-family: 'Permanent Marker', cursive;
+   font-size: 52px;
+
  }
  .navbar-nav li a:hover {
      color: #fff !important;
