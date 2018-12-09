@@ -5,7 +5,7 @@ body {
  h3, h4 {
      margin: 10px 0 30px 0;
      letter-spacing: 10px;
-     font-size: 20px;
+     font-size: 26px;
      color: #111;
  }
  .container {
@@ -28,7 +28,8 @@ body {
      margin: auto;
  }
  .carousel-caption h3 {
-     color: #fff !important;
+     color: black !important;
+
  }
  @media (max-width: 600px) {
    .carousel-caption {
@@ -50,17 +51,17 @@ body {
 
  }
  #bgImage1 {
-   height: 1200px;
-   width: 1300px;
-   margin-bottom: 50px;
+   height: 1100px;
+   width: 1400px;
+   //margin-bottom: 100px;
  }
  #bgImage2 {
-   height: 1200px;
-   width: 1300px;
+   height: 1100px;
+   width: 1400px;
  }
  #bgImage3 {
-   height: 1000px;
-   width: 1300px;
+   height: 1100px;
+   width: 1400px;
  }
  .list-group-item:last-child {
      border-bottom-right-radius: 0;
@@ -203,3 +204,79 @@ body {
   font-size: 80px;
   color: white;
 }
+
+
+ @keyframes slide {
+   0% {
+     opacity: 0;
+     transform: translateY(70%);
+   }
+   100% {
+     opacity: 1;
+     transform: translateY(0%);
+   }
+ }
+ @-webkit-keyframes slide {
+   0% {
+     opacity: 0;
+     -webkit-transform: translateY(70%);
+   }
+   100% {
+     opacity: 1;
+     -webkit-transform: translateY(0%);
+   }
+ }
+ @media screen and (max-width: 768px) {
+   .col-sm-4 {
+     text-align: center;
+     margin: 25px 0;
+   }
+   .btn-lg {
+       width: 100%;
+       margin-bottom: 35px;
+   }
+ }
+ @media screen and (max-width: 480px) {
+   .logo {
+       font-size: 150px;
+   }
+ }
+ /* Tablet Landscape */
+ @media screen and (max-width: 1060px) {
+     #primary { width:67%; }
+     #secondary { width:30%; margin-left:3%;}
+ }
+
+ /* Tabled Portrait */
+ @media screen and (max-width: 768px) {
+     #primary { width:100%; }
+     #secondary { width:100%; margin:0; border:none; }
+ }
+ /* ----------- iPhone 5, 5S, 5C and 5SE ----------- */
+
+/* Portrait and Landscape */
+@media only screen
+  and (min-device-width: 320px)
+  and (max-device-width: 568px)
+  and (-webkit-min-device-pixel-ratio: 2) {
+
+}
+
+/* Portrait */
+@media only screen
+  and (min-device-width: 320px)
+  and (max-device-width: 568px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: portrait) {
+}
+
+/* Landscape */
+@media only screen
+  and (min-device-width: 320px)
+  and (max-device-width: 568px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: landscape) {
+
+}
+
+//img { max-width: 100%;}
