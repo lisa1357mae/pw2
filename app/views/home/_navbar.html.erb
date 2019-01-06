@@ -1,0 +1,18 @@
+<div class="collapse navbar-collapse" id="myNavbar">
+  <ul class="nav navbar-nav navbar-right">
+    <li><a href="#myPage">HOME</a></li>
+    <li><a href="#about">ABOUT</a></li>
+    <li><a href="#tour">TOUR</a></li>
+    <li><a href="#contact">CONTACT</a></li>
+    <li class="dropdown">
+      <a class="dropdown-toggle" data-toggle="dropdown" href="#">MORE
+      <span class="caret"></span></a>
+      <ul class="dropdown-menu">
+        <li><%= link_to "NEWS", news_path %></li>
+          <li><%= link_to "REPERTOIRE", repertoire_path %></li>
+        <li><a href="#">MEDIA</a></li>
+      </ul>
+    </li>
+    <li><a href="#"><span class="glyphicon glyphicon-search"></span></a></li>
+  </ul>
+</div>
