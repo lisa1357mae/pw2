@@ -33,6 +33,10 @@ body {
  .carousel-caption h3 {
      color: black !important;
 
+
+ }
+ .carousel-caption {
+padding: none;
  }
  @media (max-width: 600px) {
    .carousel-caption {
@@ -54,8 +58,8 @@ body {
 
  }
  #bgImage1  {
-  // height: 1100px;
-   //width: 1400px;
+height: 1000px;
+width: 1500px;
 background: no-repeat center center fixed;
 -webkit-background-size: cover;
 -moz-background-size: cover;
@@ -64,8 +68,8 @@ background-size: cover;
    //margin-bottom: 100px;
  }
  #bgImage2 {
-  // height: 1100px;
-   //width: 1400px;
+   height: 1000px;
+   width: 1500px;
   // background: url(image/path) no-repeat center center fixed;
 background: no-repeat center center fixed;
 -webkit-background-size: cover;
@@ -74,8 +78,8 @@ background: no-repeat center center fixed;
 background-size: cover;
  }
  #bgImage3 {
-   //height: 1100px;
-   //width: 1400px;
+   height: 1000px;
+   width: 1500px;
    //background: url(image/path) no-repeat center center fixed;
 background: no-repeat center center fixed;
 -webkit-background-size: cover;
@@ -223,6 +227,11 @@ background-size: cover;
   line-height: 200px;
   font-size: 80px;
   color: white;
+}
+
+.glyphicon glyphicon-chevron-left {
+
+  padding: none;
 }
 
 
