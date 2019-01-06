@@ -12,7 +12,7 @@ body {
     height: 100%;
  }
  .container {
-     padding: 80px 120px;
+   padding: 80px 120px;
  }
  .person {
      border: 10px solid transparent;
@@ -29,6 +29,7 @@ body {
      filter: grayscale(90%); /* make all photos black and white */
      width: 100%; /* Set width to 100% */
      margin: auto;
+
  }
  .carousel-caption h3 {
      color: black !important;
@@ -36,7 +37,10 @@ body {
 
  }
  .carousel-caption {
-padding: none;
+
+ }
+ #carousel-caption {
+   padding-top: 45;
  }
  @media (max-width: 600px) {
    .carousel-caption {
@@ -54,7 +58,7 @@ padding: none;
      border-top-left-radius: 0;
  }
  .item {
-   padding-top: 50px;
+  // padding-top: 50px;
 
  }
  #bgImage1  {
@@ -227,11 +231,22 @@ background-size: cover;
   line-height: 200px;
   font-size: 80px;
   color: white;
+
 }
 
 .glyphicon glyphicon-chevron-left {
 
   padding: none;
+
+}
+.glyphicon-chevron-right:before {
+
+  opacity: 0.3;
+}
+
+.glyphicon-chevron-left:before {
+opacity: 0.3;
+  
 }
 
 
@@ -306,6 +321,9 @@ background-size: cover;
   and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: landscape) {
 
+}
+
+#myCarousel {
 }
 
 img { max-width: 100%;}
