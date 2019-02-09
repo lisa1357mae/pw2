@@ -1,4 +1,6 @@
 Rails.application.routes.draw do
+  get 'beats/index'
+
     get '/' => 'home#index', as: :root
     get '/news' => 'home#news'
     get '/repertoire' => 'home#repertoire'

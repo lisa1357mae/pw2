@@ -1,1 +1,7 @@
 <iframe width="490" height="275" src="<%= https://youtu.be/hTfmQEM_Ye0 %>" frameborder="0" allowfullscreen></iframe>
+<iframe src="https://embed.vhx.tv/<%= authorization[:player][:path] %>?autoplay=1&authorization=<%= authorization[:token] %>" width="850" height="480" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
+<!-- or -->
+<%= authorization[:player][:html] %>
+
+<!-- include the Vimeo OTT Player API for custom interactions with the Vimeo OTT Player.-->
+<script src="https://cdn.vhx.tv/assets/player.js"></script>
