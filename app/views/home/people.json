@@ -1,0 +1,27 @@
+{
+
+  "people": [
+    {
+
+  "name": "Lisa",
+  "home": "boston"
+
+
+  },
+  {
+
+  "name": "John",
+  "home": "pa"
+
+
+  },
+  {
+
+  "name": "Joe",
+  "home": "nyc"
+
+
+  }
+
+  ]
+}
